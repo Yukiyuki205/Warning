@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ウイルスに感染している可能性</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  </head>
+  <body>
+    <section class="hero" style="background: url(zzz.jpg) center">
+  <div id="app" class="hero-body">
+    <div v-if="seen" class="notification">
+      <progress class="progress is-small is-primary" max="100">0%</progress>
+  <p class="is-size-4">{{ message }}</p>
+</div>
+    <h1 class="title is-size-1">
+      ウイルスに感染している可能性
+    </h1>
+    <p>ㅤ</p>
+    <p class="is-size-2">注意:このサイトは偽物です。</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p class="is-size-3">あなたのお使いの端末からウイルスが確認されました。</p>
+<p>ㅤ</p>
+    <p class="is-size-3">このままではあなたの大切なデータが抜き取られる場合があります。</p>
+<p>ㅤ</p>
+    <p class="is-size-3">下の「ここをクリック」をクリックして端末のウイルスのクリーンアップを行ってください。</p>
+<p>ㅤ</p>
+    <button v-on:click="move" class="button is-size-3">ここをクリック</button>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
